@@ -19,6 +19,10 @@ body {
   font-family: var(--font-century); /* Use Century font */
 }
 
+header{
+  background-color: var(--primary-color);
+}
+
 button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -71,4 +75,44 @@ p{
   font-size: 0.8rem;
   color: var(--secondary-color);
   text-align: center;
+}
+
+.header-links{
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: center;
+  padding:0.5rem;
+}
+
+.header-links:hover{
+  color: var(--tertiary-color);
+}
+
+.header-links:active{
+  color: var(--tertiary-color);
+}
+
+.header-button{
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.5rem; /* Default border-radius */
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.header-button:hover{
+  background-color: var(--tertiary-color);
+}
+
+.hero-text{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  text-align: center;
+  padding: 0.5rem;
+  text-shadow: #c2c2c0 0px 0px 5px;
+  text-decoration-color: var(--secondary-color);
 }
