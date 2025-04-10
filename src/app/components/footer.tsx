@@ -70,6 +70,11 @@ export default function Footer() {
                   CSR
                 </a>
               </li>
+              <li>
+                <a href="#" className="footer-links">
+                  Sitemap
+                </a>
+              </li>
             </ul>
           </div>
 
