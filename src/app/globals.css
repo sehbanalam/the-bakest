@@ -19,9 +19,34 @@ body {
   font-family: var(--font-century); /* Use Century font */
 }
 
-header{
-  background-color: var(--primary-color);
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--tertiary-color);
 }
+
+h2{
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--tertiary-color);
+}
+
+h3{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  padding-top:0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+p{
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+}
+
+/* BUTTONS ---------------------------------------------------------------*/
 
 button {
   padding: 0.5rem 1rem;
@@ -50,31 +75,12 @@ button {
   color: var(--primary-color);
 }
 
-h1{
-  font-size: 2rem;
-  font-weight: bold;
-  color: var(--tertiary-color);
-  text-align: center;
-}
 
-h2{
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--tertiary-color);
-  text-align: center;
-}
 
-h3{
-  font-size: 0.8rem;
-  font-weight: bold;
-  color: var(--tertiary-color);
-  text-align: center;
-}
+/* HEADER ---------------------------------------------------------*/
 
-p{
-  font-size: 0.8rem;
-  color: var(--secondary-color);
-  text-align: center;
+header{
+  background-color: var(--primary-color);
 }
 
 .header-links{
@@ -115,4 +121,18 @@ p{
   padding: 0.5rem;
   text-shadow: #c2c2c0 0px 0px 5px;
   text-decoration-color: var(--secondary-color);
+}
+
+/* FOOTER ------------------------------------------------------*/
+
+footer{
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);  
+}
+
+.footer-links{
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: center;
 }
